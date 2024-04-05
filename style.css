@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+}
+body {
+    width: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    display: inline-block;    
+    background-color: aquamarine;
+}
+
+.main  {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;     
+}
+
+.menu a{
+    margin:0 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+footer{
+    background-color: grey;
+}
+.menu_footer{
+    display: inline-block;
+    padding: 10px 150px 10px 50px;
+}
+
+.social{
+    display: inline-block;   
+    padding: 10px 150px 10px 50px;
+}
+
+.icon{
+    display: inline-block;    
+    width: 50px;    
+    padding: 10px;
+}
+table{
+     box-shadow: 8px 11px 5px -3px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 8px 11px 5px -3px rgba(0,0,0,0.4);
+    -moz-box-shadow: 8px 11px 5px -3px rgba(0,0,0,0.4);
+}
+
+
+table thead th{
+    background-color: black;
+    color: white;
+}
+
+table tbody tr:nth-child(even) td{
+    background-color: #f1f1f1;   
+}
+
+table tbody tr:hover td{
+    background-color: #e9f1f1;   
+}
+
+td{
+    padding: 0 10px;
+    text-align: center;    
+}
+
+
+
